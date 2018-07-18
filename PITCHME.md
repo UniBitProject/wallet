@@ -2,7 +2,7 @@
 
 ### Join us on Discord
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 # Slide 2
 
@@ -19,7 +19,7 @@
 
 @fa[microphone gp-tip](Press S for Speaker Notes)
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 ## Template Features
 
@@ -36,7 +36,7 @@
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 @title[JavaScript Block]
 
@@ -75,7 +75,7 @@ http.createServer(function (request, response) {
 @[41-53](GIST source code is beautifully rendered on any slide.)
 @[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 ## Template Help
 
@@ -86,7 +86,7 @@ http.createServer(function (request, response) {
 - [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
 - [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 ## Go GitPitch Pro!
 
@@ -106,7 +106,7 @@ http.createServer(function (request, response) {
     </ul>
 </div>
 
----
+---?image=assets/image/blank.jpg&opacity=75
 
 ### Questions?
 
