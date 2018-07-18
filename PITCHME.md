@@ -1,12 +1,9 @@
 # Work In Progress 
 
 ### Join us on Discord
-
 ---?image=assets/image/blank.jpg&opacity=75
 
 # Slide 2
-
-### Better bg?
 
 ---?image=assets/image/blank.jpg&opacity=75
 
@@ -32,9 +29,9 @@
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-@title[JavaScript Block]
+@title[JavaScript Code Block]
 
-<p><span class="slide-title">JavaScript Block</span></p>
+<p><span class="slide-title">JavaScript Code Block</span></p>
 
 ```javascript
 // Include http module.
@@ -59,24 +56,21 @@ http.createServer(function (request, response) {
 }).listen(8080);
 ```
 
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
+@[1-17](You can present code inlined within your slide markdown too.)
+@[18-20](Again, all of this without ever leaving your slideshow.)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
 ## Template Help
 
 - [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) 
+- [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides)
+- [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-## Go GitPitch Pro!
+## Go Pro!
 
 <br>
 <div class="left">
@@ -86,8 +80,6 @@ http.createServer(function (request, response) {
 </div>
 <div class="right">
     <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
         <li>Password-Protection</li>
         <li>Image Opacity</li>
         <li>SVG Image Support</li>
@@ -100,16 +92,16 @@ http.createServer(function (request, response) {
 
 <br>
 
-@fa[twitter gp-contact](@gitpitch)
+@fa[twitter gp-contact](@unibitlabs)
 
-@fa[github gp-contact](gitpitch)
+@fa[github gp-contact](unibitlabs)
 
-@fa[medium gp-contact](@gitpitch)
+@fa[medium gp-contact](@unibitlabs)
 
 ---?image=assets/image/gitpitch-audience.jpg&opacity=100
 
 @title[Download this Template!]
 
 ### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black-binary)
+### [Get To Work On This @fa[gear gp-download]](#)
 
