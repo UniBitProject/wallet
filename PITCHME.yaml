@@ -14,3 +14,12 @@ background-opacity : 15
 transition : none
 published : true
 footnote : "GitPitch [ Black Binary ] Presentation Template"
+
+
+confidential : unibit, magic, password
+pro-title : "Your Custom Presentation Title"
+pro-subtitle : "Optional Subtitle, Byline, Description"
+# pro-contact "Optional text directly below password input."
+pro-logo : assets/your-logo.png
+pro-background : assets/your-splash.jpg
+pro-menus-hidden : true
