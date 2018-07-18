@@ -7,19 +7,17 @@
 theme : moon
 theme-override : assets/css/PITCHME.css
 # theme-override : assets/css/PITCHME.codemax.css
-highlight : ir-black
+highlight : atom-one-dark
 logo : assets/image/logo.png
-background : assets/image/binary-strings-black.jpg
+background : assets/image/blank.jpg
 background-opacity : 15
-transition : none
-published : true
-footnote : "GitPitch [ Black Binary ] Presentation Template"
-
-
-confidential : unibit, magic, password
+transition : fade
+published : false
+footnote : " [ Codename Nebula ] "
+confidential : unibit, nebula, pass
 pro-title : "Your Custom Presentation Title"
 pro-subtitle : "Optional Subtitle, Byline, Description"
-# pro-contact "Optional text directly below password input."
+pro-contact "Optional text directly below password input."
 pro-logo : assets/your-logo.png
 pro-background : assets/your-splash.jpg
 pro-menus-hidden : true
