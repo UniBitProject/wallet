@@ -1,8 +1,15 @@
-# Black Binary
+# Work In Progress 
 
-### A GitPitch Presentation Template
+### Join us on Discord
 
 ---
+
+# Slide 2
+
+### Better bg?
+
+---?image=assets/image/blank.jpg&opacity=75
+
 
 ## Tips!
 
