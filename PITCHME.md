@@ -30,10 +30,10 @@ Link To Join Is Here: https://discord.gg/KKeekgT
 
 ## Wallet Main Features
 
-- Connect to multiple MultiChain Blockchains simultaneously |
-- Native blockchain balances & Asset balances |
-- Custom Themes Available |
-- Safe & Secure |
+- Connect To Multiple Blockchains Simultaneously |
+- Native Blockchain Balances & Asset Balances Displayed |
+- Custom Themes Need To Be Available |
+- Safe & Secure Is Priority! |
 - Custom Logo, TOC, and Footnotes |
 
 ---?image=assets/image/blank.jpg&opacity=75
@@ -62,10 +62,10 @@ http.createServer(function (request, response) {
 
 ## Wallet Support & Help
 
-- [Discord Server for 24/7 Support](https://discord.gg/KKeekgT)
-  + [This GitPitch For Latest Published Updates](https://gitpitch.com/unibitproject/nebula) 
-- [The Github Repo](https://github.com/UniBitProject/nebula/)
-- [User Documentation](https://unibit.gitbook.io/nebula/)
+- [Discord Server for 24/7 Support](https://discord.gg/KKeekgT) |
+  + [This GitPitch For Latest Published Updates](https://gitpitch.com/unibitproject/nebula) |
+- [The Github Repo](https://github.com/UniBitProject/nebula/) |
+- [User Documentation](https://unibit.gitbook.io/nebula/) |
 
 ---?image=assets/image/blank.jpg&opacity=75
 
