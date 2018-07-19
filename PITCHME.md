@@ -1,17 +1,21 @@
 ---?image=assets/image/blank.jpg&opacity=75
 
-# Work In Progress 
+# Codename Nebula 
 
-### Join us on Discord
+A GUI Wallet to use with MultiChain, Built With Electron.
 
----?image=assets/image/blank.jpg&opacity=75
-
-# Slide 2
+### Join us on Discord for latest updates!
 
 ---?image=assets/image/blank.jpg&opacity=75
 
+# Discord Server Invitation
 
-## Tips!
+https://discord.gg/KKeekgT
+
+---?image=assets/image/blank.jpg&opacity=75
+
+
+## Tips
 
 <br>
 
@@ -21,13 +25,12 @@
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-## Template Features
+## Wallet Main Features
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
+- Connect to multiple MultiChain Blockchains simultaneously |
+- Native blockchain balances & Asset balances |
+- Custom Themes Available |
+- Safe & Secure |
 - Custom Logo, TOC, and Footnotes |
 
 ---?image=assets/image/blank.jpg&opacity=75
@@ -37,43 +40,33 @@
 <p><span class="slide-title">JavaScript Code Block</span></p>
 
 ```javascript
-// Include http module.
 var http = require("http");
 
-// Create the server. Function passed as parameter
-// is called on every request made.
 http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
   request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
     response.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    // Send data and end response.
     response.end('Hello HTTP!');
   });
-
-// Listen on the 8080 port.
 }).listen(8080);
 ```
 
-@[1-17](You can present code inlined within your slide markdown too.)
-@[18-20](Again, all of this without ever leaving your slideshow.)
+@[1-7](You can present code inlined within your slide markdown too.)
+@[8-10](Again, all of this without ever leaving your slideshow.)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-## Template Help
+## Wallet Support & Help
 
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) 
-- [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides)
-- [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+- [Discord Server for 24/7 Support](https://discord.gg/KKeekgT)
+  + [This GitPitch For Latest Published Updates](https://gitpitch.com/unibitproject/nebula) 
+- [The Github Repo]()
+- [User Documentation](https://gitbook.io/)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-## Go Pro!
+## The Road Ahead
 
 <br>
 <div class="left">
@@ -84,8 +77,8 @@ http.createServer(function (request, response) {
 <div class="right">
     <ul>
         <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
+        <li>Theme Opacity Settings</li>
+        <li>Drag and Drop Support</li>
     </ul>
 </div>
 
@@ -99,13 +92,12 @@ http.createServer(function (request, response) {
 
 @fa[github gp-contact](unibitlabs)
 
-@fa[medium gp-contact](@unibitlabs)
-
 ---?image=assets/image/blank.jpg&opacity=75
 
 @title[Get Started!]
 
-### Get your presentation started!
-### [Get To Work On This @fa[gear gp-download]](#)
+### Beta Test The Wallet Pre-Release!
+
+### [Get To Work Beta Testing! @fa[gear gp-download]](https://discord.gg/KKeekgT)
 
 
