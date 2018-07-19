@@ -108,3 +108,4 @@ http.createServer(function (request, response) {
 ### Get your presentation started!
 ### [Get To Work On This @fa[gear gp-download]](#)
 
+---?image=assets/image/blank.jpg&opacity=75
