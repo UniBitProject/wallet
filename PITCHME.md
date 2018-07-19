@@ -16,7 +16,8 @@ Thank you everyone!
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-# Join us on Discord for latest updates!
+# Join us on Discord 
+## For Latest Updates!
 
 https://discord.gg/KKeekgT
 
