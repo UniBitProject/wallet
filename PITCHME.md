@@ -1,6 +1,9 @@
+---?image=assets/image/blank.jpg&opacity=75
+
 # Work In Progress 
 
 ### Join us on Discord
+
 ---?image=assets/image/blank.jpg&opacity=75
 
 # Slide 2
