@@ -43,9 +43,9 @@ https://discord.gg/KKeekgT
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-@title[JavaScript Code Block]
+@title[How It Works]
 
-<p><span class="slide-title">JavaScript Code Block</span></p>
+<p><span class="slide-title">How It Works</span></p>
 
 ```javascript
 var http = require("http");
@@ -60,8 +60,8 @@ http.createServer(function (request, response) {
 }).listen(8080);
 ```
 
-@[1-7](You can present code inlined within your slide markdown too.)
-@[8-10](Again, all of this without ever leaving your slideshow.)
+@[1-7](We explain how we put it together.)
+@[8-10](And, all of this without ever leaving the slideshow.)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
@@ -69,8 +69,8 @@ http.createServer(function (request, response) {
 
 - [Discord Server for 24/7 Support](https://discord.gg/KKeekgT)
   + [This GitPitch For Latest Published Updates](https://gitpitch.com/unibitproject/nebula) 
-- [The Github Repo]()
-- [User Documentation](https://gitbook.io/)
+- [The Github Repo](https://github.com/UniBitProject/nebula/)
+- [User Documentation](https://unibit.gitbook.io/nebula/)
 
 ---?image=assets/image/blank.jpg&opacity=75
 
