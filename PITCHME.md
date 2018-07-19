@@ -101,11 +101,11 @@ http.createServer(function (request, response) {
 
 @fa[medium gp-contact](@unibitlabs)
 
----?image=assets/image/gitpitch-audience.jpg&opacity=100
+---?image=assets/image/blank.jpg&opacity=75
 
-@title[Download this Template!]
+@title[Get Started!]
 
 ### Get your presentation started!
 ### [Get To Work On This @fa[gear gp-download]](#)
 
----?image=assets/image/blank.jpg&opacity=75
+
