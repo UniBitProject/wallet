@@ -2,7 +2,8 @@
 
 # Codename Nebula 
 
-A GUI Wallet to use with MultiChain, Built With Electron.
+A Graphical Wallet to use with MultiChain,
+Built With Electron & Bootstrap.
 
 ---?image=assets/image/blank.jpg&opacity=75
 
@@ -17,15 +18,9 @@ Thank you everyone!
 ---?image=assets/image/blank.jpg&opacity=75
 
 # Join us on Discord 
-## For Latest Updates!
+## For The Latest Updates!
 
-https://discord.gg/KKeekgT
-
----?image=assets/image/blank.jpg&opacity=75
-
-## Tips
-
-<br>
+Link To Join Is Here: https://discord.gg/KKeekgT
 
 @fa[arrows gp-tip](Press F to go Fullscreen)
 
