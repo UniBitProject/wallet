@@ -7,7 +7,7 @@ Built With Electron & Bootstrap.
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-### Warning!!!
+### Warning!!! |
 
 Everything in this presentation is a work in progress and up for radical changes constantly.
 You may load something up, and as soon as you refresh, it could be very different. 
@@ -75,13 +75,13 @@ http.createServer(function (request, response) {
 <div class="left">
     <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
     <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
+    More details here.</a> |
 </div>
 <div class="right">
     <ul>
-        <li>Password-Protection</li>
-        <li>Theme Opacity Settings</li>
-        <li>Drag and Drop Support</li>
+        <li>Password-Protection</li> |
+        <li>Theme Opacity Settings</li> |
+        <li>Drag and Drop Support</li> |
     </ul>
 </div>
 
@@ -91,9 +91,9 @@ http.createServer(function (request, response) {
 
 <br>
 
-@fa[twitter gp-contact](@unibitlabs)
+@fa[twitter gp-contact](@unibitlabs) |
 
-@fa[github gp-contact](unibitlabs)
+@fa[github gp-contact](unibitlabs) |
 
 ---?image=assets/image/blank.jpg&opacity=75
 
@@ -101,6 +101,6 @@ http.createServer(function (request, response) {
 
 ### Beta Test The Wallet Pre-Release!
 
-### [Get To Work Beta Testing! @fa[gear gp-download]](https://discord.gg/KKeekgT)
+### [Get To Work Beta Testing! @fa[gear gp-download]](https://discord.gg/KKeekgT) |
 
 
