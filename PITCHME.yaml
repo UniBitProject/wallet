@@ -4,16 +4,17 @@
 # For details, visit Wiki:
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
-theme : moon
+theme : beige
 theme-override : assets/css/PITCHME.css
-# theme-override : assets/css/PITCHME.codemax.css
 highlight : atom-one-dark
 logo : assets/image/logo.png
 background : assets/image/blank.jpg
 background-opacity : 15
 transition : fade
-published : false
-footnote : " [ Codename Nebula ] "
+published : true
+footnote : " [ Codename Project Nebula ] "
+
+# pro features for gitpitch pro account testing
 confidential : unibit, nebula, pass
 pro-title : "Your Custom Presentation Title"
 pro-subtitle : "Optional Subtitle, Byline, Description"
