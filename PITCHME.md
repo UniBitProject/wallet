@@ -4,6 +4,8 @@
 
 A GUI Wallet to use with MultiChain, Built With Electron.
 
+---?image=assets/image/blank.jpg&opacity=75
+
 ### Warning!!!
 
 Everything in this presentation is a work in progress and up for radical changes constantly.
@@ -19,7 +21,6 @@ Thank you everyone!
 https://discord.gg/KKeekgT
 
 ---?image=assets/image/blank.jpg&opacity=75
-
 
 ## Tips
 
