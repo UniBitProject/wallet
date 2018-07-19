@@ -4,11 +4,17 @@
 
 A GUI Wallet to use with MultiChain, Built With Electron.
 
-### Join us on Discord for latest updates!
+### Warning!!!
+
+Everything in this presentation is a work in progress and up for radical changes constantly.
+You may load something up, and as soon as you refresh, it could be very different. 
+We are a group of 3-6 and growing, please discuss major changes in the discord and follow best practices of making a PR that can be reviewed before being merged to master.
+
+Thank you everyone!
 
 ---?image=assets/image/blank.jpg&opacity=75
 
-# Discord Server Invitation
+# Join us on Discord for latest updates!
 
 https://discord.gg/KKeekgT
 
