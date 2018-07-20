@@ -1,7 +1,7 @@
 ---?image=assets/image/blank.jpg&opacity=75
 # Codename Nebula 
 
-A Graphical Wallet to use with MultiChain,<br>
+A Graphical Wallet to Use with MultiChain,<br>
 Built With Electron & Bootstrap.
 
 ---?image=assets/image/blank.jpg&opacity=75
@@ -20,6 +20,7 @@ We are a group of 3-6 and growing, please discuss major changes in the discord a
 Link To Join Is Here: https://discord.gg/KKeekgT
 
 @fa[arrows gp-tip](Press F to go Fullscreen)
+
 @fa[microphone gp-tip](Press S for Speaker Notes)
 
 ---?image=assets/image/blank.jpg&opacity=75
