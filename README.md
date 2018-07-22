@@ -1,3 +1,5 @@
+![Current Status](https://img.shields.io/badge/Current%20Status-Non--Operational-red.svg "Current Status")
+
 ### Wallet
 
 This Project & Repository is a Work In Progress. <br>
