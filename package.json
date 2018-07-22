@@ -16,6 +16,7 @@
   "scripts": {
     "start": "electron .",
     "start-mac": "/Applications/Electron.app/Contents/MacOS/Electron .",
+    "test": "mocha",
     "package-linux": "electron-packager . uni-wallet --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/unibit.png --prune=true --out=release-builds"
   },
   "dependencies": {
