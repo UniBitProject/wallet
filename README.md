@@ -1,3 +1,5 @@
+<center>
+
 ![Current Status](https://img.shields.io/badge/Current%20Status-Non--Operational-red.svg "Current Status")
 
 ### Wallet
@@ -13,9 +15,11 @@ A Graphical Wallet For MultiChain Blockchains
 Built with <3 by volunteers under the guidance of UniBit Labs. <br>
 <br>
 <br>
-What is Electron?<br>
+What is Electron? <br>
 <br>
->  Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. <br>
+
+>  Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. 
+
 <br>
 <br>
 What does this mean to <b>you</b>?<br>
@@ -131,3 +135,4 @@ So, This is what I have thrown together for us to use as a starting point.<br>
  <br>
  - **ALL OTHER APP DEPENDENCIES NEED LISTED!!** and what they are doing or providing for our app's functionality..
  
+</center>
