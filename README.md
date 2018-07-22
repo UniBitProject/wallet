@@ -18,7 +18,7 @@ What is Electron?<br>
 >  Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. <br>
 <br>
 <br>
-What does this mean to you put simply?<br>
+What does this mean to <b>you</b>?<br>
 <br>
 If you can build a website, then you can now build a desktop app by using Electron.<br>
 It takes care of the hard parts so you can focus on the core of your application.<br>
