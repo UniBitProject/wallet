@@ -46,30 +46,37 @@ App Preview
 Quick Code Tour
 ---------------
 
-So, This is what I have thrown together for us to use as a starting point.
+So, This is what I have thrown together for us to use as a starting point.<br>
 
- - The code entry point is in **package.json** under the key "main". The value is "main.js"
+ - The code entry point is in **package.json** under the key "main". The value is "main.js"<br>
  
- - **main.js** creates a BrowserWindow and loads **index.html**. 
+ - **main.js** creates a BrowserWindow and loads **index.html**. <br>
+ <br>
  
- It also has event handlers that enable keyboard shortcuts for Developer Tools on various platforms. 
+ It also has event handlers that enable keyboard shortcuts for Developer Tools on various platforms. <br>
+ <br>
  
- - **index.html** loads Bootstrap's CSS in the &lt;head&gt; tag and **renderer.js** after the closing &lt;body&gt; tag. 
+ - **index.html** loads Bootstrap's CSS in the &lt;head&gt; tag and **renderer.js** after the closing &lt;body&gt; tag. <br>
+ <br>
  
- On the web Bootstrap's JavaScript would also load in this location,
- but the Electron way is to load it in **renderer.js** with a require(). 
+ On the web Bootstrap's JavaScript would also load in this location,<br>
+ but the Electron way is to load it in **renderer.js** with a require(). <br>
+ <br>
  
- Note that these src and href attributes use normal relative paths. An HTTP server is not necessary.
+ Note that these src and href attributes use normal relative paths. An HTTP server is not necessary.<br>
+ <br>
  
- - **renderer.js** loads jQuery, Bootstrap and it's dependency; Tether. 
- 
- Each is assigned to the window object because this is the web application custom. 
- It's not the Node.js or Electron custom because window is a global. 
- For now we must do it this way or it won't work.
-
+ - **renderer.js** loads jQuery, Bootstrap and it's dependency; Tether. <br>
+ <br>
+ Each is assigned to the window object because this is the web application custom. <br>
+ It's not the Node.js or Electron custom because window is a global. <br>
+ For now we must do it this way or it won't work.<br>
+<br>
  - **config.json** holds the blockchain parameters used for connecting.
- 
+ <br>
+ <strong>
  ^ Application Information Above ^
+ </strong>
  <br>
  <br>
  <br>
