@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Wallet Dashboard</title>
+    <!-- Core CSS - Include with every page -->
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+      <link href="assets/css/main-style.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+  <script src="./assets/plugins/connection.js"></script>
+  <script src="./assets/plugins/client.js"></script>
+  <script src="./assets/plugins/commands.js"></script>
+  <script src="./assets/plugins/rpccall.js"></script>
+  <script src="./assets/plugins/index.js"></script>
+
+    <!--  wrapper -->
+    <div id="wrapper">
+
+
+        <!-- navbar side -->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <!-- sidebar-collapse -->
+            <div class="sidebar-collapse">
+                <!-- side-menu -->
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <!-- user image section-->
+                        <div class="user-section">
+
+                            <div class="user-info">
+                                <div><strong>Connection Status</strong></div>
+                                <div class="user-text-online">
+                                    <span class="user-circle-online btn btn-success btn-circle "></span>&nbsp;Online
+                                </div>
+                            </div>
+                        </div>
+                        <!--end user image section-->
+                    </li>
+
+                    <li class="">
+                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html"><i class="fa fa-microphone fa-fw"></i>Next Gen Features</a>
+                    </li>
+
+
+            </div>
+            <!-- end sidebar-collapse -->
+        </nav>
+        <!-- end navbar side -->
+        <!--  page-wrapper -->
+       <div id="page-wrapper">
+
+
+             <div class="col-lg-12">
+                  <!--jumbotron-->
+                 <div class="jumbotron"><br>
+                     <h1>Testing Multichain API In Electron</h1>
+                     <script> // importing multichain-node command here to jsonify our object
+                     let info = {};
+                     multichain.getInfo((err, info) => {
+                         if(err){
+                             throw err;
+                         }
+                         JSON.stringify(info);
+                         console.log(info);
+                         localStorage.setItem('getInfodata', JSON.stringify(info));
+                     })
+                     </script>
+
+                     <button id="myBtn" onclick="myFunction()">Try it out</button>
+
+ <p id="demo"></p>
+
+ <script>
+ var myJSON = JSON.stringify(temp1);
+
+ function myFunction() {
+     var x = document.getElementById("myBtn").getAttribute("onclick");
+     document.getElementById("detail-panel").innerHTML = temp1.chainname;
+     document.getElementById("node-details").innerHTML = temp1.nodeaddress;
+     document.getElementById("my-address").innerHTML = address1;
+     var getInfodata = JSON.parse(localStorage.getItem('getInfodata'));
+     console.log(getInfodata);
+
+
+ }
+ </script>
+                 </div>
+               </div>
+                   <!--End jumbotron-->
+
+            <div class="row">
+                 <!--page header-->
+                <div class="col-lg-12">
+                    <h1 class="page-header">Status Report</h1>
+                </div>
+</div>
+                 <!--Default Pannel, Primary Panel And Success Panel   -->
+                <div class="col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <center>  Blockchain Details</center>
+                        </div>
+                        <div class="panel-body" id="detail-panel">
+                            <p></p>
+                        </div>
+                        <div class="panel-footer">
+                          <center>  Description</center>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <center>Node Connection Details</center>
+                        </div>
+                        <div class="panel-body">
+                            <p><div id="node-details">
+
+          <script>
+          var myJSON = JSON.stringify(temp1);
+
+          function myFunction2() {
+              var x = document.getElementById("myBtn2").getAttribute("onclick");
+              document.getElementById("demo2").innerHTML = temp1.version;
+          }
+          </script></p>
+                        </div>
+                        <div class="panel-footer">
+                          <center>  Localhost Node Info </center>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+        <!-- end page-wrapper -->
+
+    </div>
+    <!-- end wrapper -->
+
+    <!-- Core Scripts - Include with every page -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <!--
+    <script src="assets/plugins/pace/pace.js"></script>
+    <script src="assets/scripts/siminta.js"></script>
+-->
+</body>
+
+</html>
