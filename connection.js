@@ -7,10 +7,10 @@ var listassets;
 var totalbalance;
 var listwallettransactions;
 const connection = {
-    port: "8340",
+    port: "yourport",
     host: '127.0.0.1',
     user: "multichainrpc",
-    pass: "2Cvvg7ufaNG2i7pG4SZegP4YqYHCdA9X76FZ8WthJLZG"
+    pass: "yourpass"
 }
 const bluebird = require("bluebird");
 console.log("Connecting....")

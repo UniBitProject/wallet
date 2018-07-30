@@ -1,8 +1,8 @@
 {
 	"connection": {
-		"port": "4764",
+		"port": "yourrpcport",
 		"host": "127.0.0.1",
     "user": "multichainrpc",
-    "pass": "2xipdi1UszoV8WMhVqUiQT6WHKc1YWn42muXvTWMxAdU"
+    "pass": "yourrpcpass"
 	}
 }
