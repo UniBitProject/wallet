@@ -149,19 +149,19 @@ padding: 20px 15px;
   background-color:#000;
   opacity: 0.9;
   filter: alpha(opacity=90);
-	height:1000px;
+	height:auto;
 	font-size:18px;
 	text-align:left;
-	padding:0 0 0 25px;
+	padding:0 0 50px 25px;
 }
 
 #side-menu2 {
   background-color:#333;
   color: #fff;
-	height:1000px;
+	height:auto;
 	font-size:18px;
 	text-align:left;
-	padding:0 0 0 25px;
+	padding: 0 0 50px 25px;
 }
 #side-menu2 a {
   color:#fff;
@@ -251,7 +251,7 @@ background-color: #333;
         position: inherit;
         margin: 0 0 0 250px;
         padding: 0 30px;
-        min-height: 1000px;
+        min-height: 600px;
 
 
     }
