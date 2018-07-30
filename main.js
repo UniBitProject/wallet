@@ -13,6 +13,8 @@ app.setName(config.productName)
 
 var fs = require('fs');
 
+
+
 let multichain = require("multichain-node")({
     port: globalConfig.connection.port,
     host: globalConfig.connection.host,
@@ -33,14 +35,15 @@ var mainWindow = null
 app.on('ready', function () {
   mainWindow = new BrowserWindow({
     title: config.productName,
-backgroundColor: '#312450',
+backgroundColor: '#333333',
     webPreferences: {
       nodeIntegration: true,
       defaultEncoding: 'UTF-8'
     }
   })
 
-  mainWindow.loadURL(`file://${__dirname}/app/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/app/new-index.html`)
+  var introJS = require('intro.js').introJs
 
   // Enable keyboard shortcuts for Developer Tools on various platforms.
   let platform = os.platform()

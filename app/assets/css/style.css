@@ -19,34 +19,99 @@ limitations under the License.*/
 
 /* Global Styles */
 
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+.collapsible2 {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	border-radius:0px;
+}
+
+.active, .collapsible2:hover {
+    background-color: #555;
+}
+.collapsible3 {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	border-radius: 0px -0px 15px 15px ;
+}
+
+.active, .collapsible3:hover {
+    background-color: #555;
+}
+
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #999999;
+
+}
 /* ------------------------------- */
 
  body {
-    background-color: #333333;
+    background-color: #333;
+	  color:#333;
 }
 
+.jumbotron {
+  background-color: #333;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+
+}
 /* Wrappers */
 
 /* ------------------------------- */
 
  #wrapper {
     width: 100%;
-    margin-top: 55px!important;
-    background-color:#333333;
+    #margin-top: 55px!important;
+    background-color:#000;
 }
 
 #page-wrapper {
     padding: 0 15px;
     min-height: 568px;
-     background-color:rgb(209, 212, 216);
-}
+  	background-color:#333;
+	 }
 
 
 
 
 
 .navbar-static-side ul li {
-    border-bottom:1px solid #666666 !important;
+    border-bottom:1px solid #fff !important;
 }
 
 /* Navigation */
@@ -223,9 +288,66 @@ limitations under the License.*/
     color: #333333;
 }
 
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.panelPimp a {
+  box-shadow: 5px 10px #000:
+}
+
 .panel .slidedown .glyphicon,
 .chat .glyphicon {
     margin-right: 5px;
+    box-shadow: 5px 10px #888888:
 }
 
 .chat-panel .panel-body {
@@ -320,9 +442,27 @@ table.dataTable thead .sorting:after {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #ddd;
-    background-color: #333333 !important;
+    background-color: #fff !important;
 }
 
 .show-grid {
     margin: 15px 0;
+}
+
+.center {
+	margin:auto auto;
+	text-align:center;
+	float:center;
+}
+
+.title{
+	font-style:Impact, Charcoal, sans-serif;
+	font-size:38px;
+	color:#fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.bg666{
+	background-color:#666;
 }

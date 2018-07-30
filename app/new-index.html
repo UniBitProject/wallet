@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Wallet Dashboard</title>
+    <!-- Core CSS - Include with every page -->
+	
+    <link href="./assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+    <link href="./assets/plugins/introjs.min.css" rel="stylesheet" />
+	  <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/w4.css">
+    <link href="./assets/css/main-style.css" rel="stylesheet" />
+    <link rel="icon"
+          type="image/ico"
+          href="./assets/img/logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<!-- Core Scripts - Include with every page -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./assets/plugins/jquery-1.10.2.js"></script>
+  <script src="./assets/plugins/bootstrap/bootstrap.min.js"></script>
+<!--
+  <script src="assets/plugins/pace/pace.js"></script>
+  <script src="assets/scripts/siminta.js"></script>
+-->
+  <script src="./assets/plugins/connection.js"></script>
+  <script src="./assets/plugins/client.js"></script>
+  <script src="./assets/plugins/commands.js"></script>
+  <script src="./assets/plugins/rpccall.js"></script>
+  <script src="./assets/plugins/index.js"></script>
+  <script src="./assets/plugins/intro.min.js"></script>
+
+</head>
+<body>
+
+
+
+	<!--  wrapper -->
+    <div id="wrapper">
+        <!-- navbar side -->
+        <nav class="navbar-clear navbar-static-side" role="navigation">
+            <!-- sidebar-collapse -->
+            <div class="sidebar-collapse center">
+                <!-- side-menu -->
+                <div class="nav">
+                    <div class="center">
+                      <br>
+					<div>
+					</div>
+          <img type="image" alt="Click me!" data-hint='This is a logo area..' src="./assets/img/logo.png" width="175" height="130" />
+         <br>
+         <h1 class="h1Custom" style="h1Custom"> Multi Wallet</h1><br>
+         <div id="statusConnection">Connection Status</div><br>
+         <center>
+           <button id="connectButton" type="button" class="btn btn-info" onclick="myFunction()">
+             Connect
+           </button>
+         </center>
+         <script>
+         document.getElementById("connectButton").addEventListener("onClick", myFunction3());
+
+         function myFunction3() {
+             document.getElementById("statusConnection").innerHTML = "Online";
+         }
+         </script>
+					<ul class="nav" id="side-menu2">
+                    <li class="">
+                        <a href="index.html"><i class="fa fa-chart-pie fa-fw"> </i> Portfolio</a>
+                    </li>
+					 <li class="">
+                        <a href="index.html"><i class="fa fa-wallet fa-fw"> </i> Wallet</a>
+                    </li>
+					 <li class="">
+                        <a href="index.html"><i class="fa fa-hdd fa-fw"></i> Backup</a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <Br>
+                      <br>
+                      <br>
+                      <Br>
+                        <br>
+                    <li class="">
+                                 <a href="index.html"><i class="fa fa-cogs fa-fw"></i> Settings </a>
+                             </li>
+                             <li class="">
+                                 <a href="index.html"><i class="fa fa-exclamation-triangle fa-fw"> </i> Help</a>
+                             </li>
+</div>
+
+            </div>
+          </div>
+        </div>
+            <!-- end sidebar-collapse -->
+        </nav>
+        <!-- end navbar side -->
+        <!--  page-wrapper -->
+       <div id="page-wrapper">
+         <br>
+         <br>
+         <div class="w3-panel w3-leftbar w3-clear w3-xxlarge w3-serif">
+       <p><i><p style="color:#4ed6d6;">"Make it as simple as possible, but not simpler."</i></p><br>
+       <button onclick="intro.start();">Click me to Test IntroJS</button>
+       <script>
+       var introJS = require('intro.js').introJs
+       var intro = introJs();
+       intro.setOptions({
+         'showStepNumbers': true
+       });
+       intro.start();
+
+       function testAlert() {
+       alert("alert");
+       };
+
+       </script>
+       <br>
+       <div data-intro='Hello Connection Alert!' data-position='bottom' class="alert alert-danger alert-dismissible" role="alert">
+       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       <p>
+       <strong>Warning!</strong> Better check your settings, looks like you're not connected.
+      </p>
+      <p id="demo"></p>
+     </div>
+     <script> // importing multichain-node command here to jsonify our object
+     multichain.getInfo((err, info) => {
+         if(err){
+             throw err;
+         }
+         JSON.stringify(info);
+         console.log(info);
+         global.x = (info);
+     });
+     </script>
+     <script>
+
+     function myFunction() {
+         document.getElementById("panel1").innerHTML = global.x.chainname;
+         document.getElementById("panel2").innerHTML = global.x.nodeaddress;
+         document.getElementById("panel3").innerHTML = address1;
+         document.getElementById("panel4").innerHTML = global.x.blocks;
+         document.getElementById("panel5").innerHTML = global.x.balance;
+         document.getElementById("panel6").innerHTML = global.x.difficulty;
+         var getInfodata = JSON.parse(localStorage.getItem('getInfodata'));
+         console.log('Panels should be updated now..');
+     }
+     </script>
+     <br>
+             <div class="col-md-12">
+               <br>
+                   <button class="collapsible">Account Balances</button>
+                   <div class="content">
+                     <br>
+                     <br>
+                     <div class="col-sm-4">
+                         <div class="panel panel-default panelPimp9" id='introjsPanel' data-intro='Hello Panel #1' data-hint='This is a hint alerting you about your connection status!'>
+                             <div class="panel-heading">
+                               <center>  [ Asset Name ]</center>
+                             </div>
+                             <div class="panel-body" id="panel1">
+                                 <p><center>BALANCE</center></p>
+                             </div>
+                             <div class="panel-footer">
+                               <center>  Asset Description</center>
+                             </div>
+                         </div>
+                         <br>
+                         <br>
+                     </div>
+                   <div class="col-sm-4">
+                       <div class="panel panel-primary panelPimp">
+                           <div class="panel-heading" >
+                             <center>  [ Asset Name ] <span class="w3-badge w3-yellow">New!</span></p></center>
+                           </div>
+                           <div class="panel-body" id="panel2">
+                               <p><center>BALANCE</center></p>
+                           </div>
+                           <div class="panel-footer">
+                             <center>  Asset Description</center>
+                           </div>
+                       </div>
+                       <br>
+                       <br>
+                   </div>
+                 <div class="col-sm-4">
+                     <div class="panel panel-default panelPimp8">
+                         <div class="panel-heading">
+                           <center>  [ Asset Name ]</center>
+                         </div>
+                         <div class="panel-body" id="panel3">
+                             <p><center>BALANCE</center></p>
+                         </div>
+                         <div class="panel-footer">
+                           <center>  Asset Description</center>
+                         </div>
+                     </div>
+                     <br>
+                     <br>
+                 </div>
+               </div>
+                     <button class="collapsible3" id="collapsible3"> Connection Details</button>
+                     <div class="content">
+                       <br>
+                       <br>
+                       <br>
+                       <div class="col-sm-4">
+                           <div class="panel panel-success panelPimp8" id='introjsPanel' data-intro='Hello Panel #2'>
+                               <div class="panel-heading">
+                                 <center>  Blockchain Information</center>
+                               </div>
+                               <div class="panel-body" id="panel4">
+                                   <p></p>
+                               </div>
+                               <div class="panel-footer">
+                                 <center>  Description</center>
+                               </div>
+                           </div>
+                       </div>
+<br>
+                       <div class="col-md-3">
+                                 <div class="panel panel-default panelPimp">
+                                    <div class="panel-heading panel-heading-custom3">
+                                        <h3 class="panel-title">Project Title</h3>
+                                     </div>
+                                     <div class="panel-body" id="panel5">
+                                        <table class="table">
+                                          <tbody>
+                                            <tr>
+                                              <td>Percentage</td>
+                                              <td>Amount</td>
+                                            </tr>
+                                            <tr>
+                                              <td>38%</td>
+                                              <td>$0.1M</td>
+                                            </tr>
+                                         </tbody>
+                                       </table>
+                                     </div>
+                                   </div>
+                                 </div>
+
+
+                       <div class="col-sm-4">
+                           <div class="panel panel-warning panelPimp9">
+                               <div class="panel-heading">
+                                 <center>  Blockchain Information</center>
+                               </div>
+                               <div class="panel-body" id="panel6">
+                                   <p></p>
+                               </div>
+                               <div class="panel-footer">
+                                 <center>  Description</center>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                      <br>
+                      <br>
+                      <br>
+                       <p>Lovely data outside of the div for the panels...</p>
+                     </div>
+                     <br>
+                     <br>
+<!--
+<div class="logo-area" id="logo-area">
+                     <img src="./assets/img/clear-logo-4.png"></img><br>
+</div>
+-->
+                    <br>
+                    <br>
+                    <br>
+                   </div>
+                   </center>
+                 </div>
+               </div>
+                   <!--End jumbotron-->
+        </div>
+        <!-- end page-wrapper -->
+    </div>
+    <!-- end wrapper -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/plugins/pace/pace.js"></script>
+    <script src="assets/plugins/intro.min.js"></script>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+    </script>
+    <script>
+    var coll = document.getElementsByClassName("collapsible2");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+    </script>
+	   <script>
+    var coll = document.getElementsByClassName("collapsible3");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+				content.style.borderRadius = "0 0 15px 15px";
+            }
+        });
+    }
+    </script>
+	<script>
+	$('#collapsible3').click(function(event){
+	var x = document.getElementById('collapsible3');
+	var content = this.nextElementSibling;
+    if (content.style.display == "none") {
+        x.style.borderRadius = "0 0 15px 15px";
+    } else {
+        x.style.borderRadius = "0";
+    }
+		});
+
+	</script>
+  <script>
+  var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 0; j < selElmnt.length; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);</script>
+
+
+
+
+</body>
+</html>
