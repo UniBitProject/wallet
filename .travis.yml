@@ -30,6 +30,7 @@ cache:
 install:
   - curl -L https://yarnpkg.com/latest.tar.gz | tar xz && mv yarn-* $HOME/.yarn
   - export PATH="$HOME/.yarn/bin:$PATH"
+  - sudo apt-get install mocha
   - yarn
 
 script:
