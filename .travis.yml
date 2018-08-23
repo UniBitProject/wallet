@@ -1,36 +1,23 @@
 language: node_js
-
-env:
-  global:
-    - FORCE_COLOR=1
-
-matrix:
-  include:
-    - os: linux
-      env: TEST_FILES=BuildTest,extraMetadataTest,globTest,filesTest,ignoreTest,linux
-      node_js: "10"
-      
-cache:
-  yarn: true
-  directories:
-    - node_modules
-    - $HOME/Library/Caches/electron
-    - $HOME/Library/Caches/electron-builder
-    - /tmp/jest-electron-builder-tests
-
+node_js:
+    - "0.12.7"
+sudo: false
 install:
-  - curl -L https://yarnpkg.com/latest.tar.gz | tar xz && mv yarn-* $HOME/.yarn
-  - export PATH="$HOME/.yarn/bin:$PATH"
-  - yarn
-
-addons:
-  apt:
-    packages:
-      - mocha
-         
+    - npm install -g tslint typescript tsd
+    - npm install
+    - tsd install
+    - export DISPLAY=':99.0'
+    - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 script:
-  - yarn test
+    - tslint --version
+    - tslint $(git ls-files | grep '.ts$')
+    - tsc --version
+    - tsc -p src/browser
+    - tsc src/renderer/*.ts --out build/src/renderer
+    - tsc -p tests/browser
+    - npm test -- --travis
+addons:
+    apt:
+        packages:
+            - xvfb
 
-branches:
-  except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
