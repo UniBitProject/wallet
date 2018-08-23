@@ -26,7 +26,6 @@ install:
 addons:
   apt:
     packages:
-      - xvfb
       - mocha
          
 script:
