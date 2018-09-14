@@ -1,6 +1,6 @@
 
 
-Nebula GUI Wallet
+Universal Wallet
 -----------------
 
 What is Electron?
